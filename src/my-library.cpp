@@ -1,4 +1,4 @@
-#include "my-library/my-library.hpp"
+#include "my-library.hpp"
 #include "vex.h"
 
 namespace mylib {

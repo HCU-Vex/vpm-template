@@ -15,12 +15,10 @@ A template for creating VPM-compatible libraries for VEXcode V5 C++.
 ```
 your-library/
   include/
-    your-library/
-      your-library.hpp    ← public API headers
+    your-library.hpp    ← public API headers
   src/
-    your-library/
-      your-library.cpp    ← implementation
-  vpm.json                ← library metadata
+    your-library.cpp    ← implementation
+  vpm.json              ← library metadata
 ```
 
 ## vpm.json
@@ -53,7 +51,7 @@ vpm install your-username/your-library@v1.0.0
 ## Usage in a VEXcode Project
 
 ```cpp
-#include "your-library/your-library.hpp"
+#include "your-library.hpp"
 
 int main() {
     yourlib::hello();
